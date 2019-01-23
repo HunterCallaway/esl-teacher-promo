@@ -14,6 +14,7 @@
 				<h3>Goals</h3>
 					<p>The primary goal is to gain new English as a Second Language (ESL) students. The second goal is to connect with online or local schools that are looking for new instructors.</p>
 			<h2>Persona</h2>
+			<img src="moniz-mohammed.jpg" alt="Picture of Moniz Mohammed">
 				<h3>Name</h3>
 					<p>Moniz Mohammed</p>
 				<h3>Age</h3>
