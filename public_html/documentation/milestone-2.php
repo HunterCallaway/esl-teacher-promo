@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
 		<title>Milestone 2</title>
+
 	</head>
 	<body>
 		<h1>Milestone 1</h1>
@@ -19,10 +22,13 @@
 
 			<h2>Wireframes</h2>
 				<h3>Mobile Wireframes</h3>
-					<img src="welcome-and-about-me.png" alt="Welcome and About Me" />
-					<img src="experience-and-testimonial.png" alt="Experience and Testimonial" />
-					<img src="contact-form.png" alt="Contact Form" />
+					<div class="mobile">
+						<img src="welcome-and-about-me.png" alt="Welcome and About Me" />
+						<img src="experience-and-testimonial.png" alt="Experience and Testimonial" />
+						<img src="contact-form.png" alt="Contact Form" />
+					</div>
 				<h3>Desktop Wireframes</h3>
-					<img src="desktop-wireframe.png" alt="Desktop Wireframe" />
-	</body>
+					<div class="desktop">
+						<img src="desktop-wireframe.png" alt="Desktop Wireframe" />
+					</div>
 </html>
