@@ -16,5 +16,13 @@
 					<p>This part of the website will feature information about my time as an instructor on Verbling.com and my participation in the Teaching Assistant Program in France (TAPIF). I will explain that I have a Certificate in English Language Teaching to Adults (CELTA). Additionally, one of my former students will provide a short paragraph attesting to my abilities as an instructor. Each block of information and its associated logo/image, if any, (i.e. the "Experience" section title, Verbling teaching, TAPIF, CELTA information, the "Testimonial" sub-section title, and testimonial content) will slide in alternatingly from the left and the right as the user scrolls  to the end. The image of the CELTA will also expanded to an enlarged PDF upon clicking it.</p>
 				<h3>Contact</h3>
 					<p>I will create a contact form that will allow potential students (and local schools who may be looking for part-time instructors) to get in touch with me for further information. There will also be a link to my Verbling.com teacher profile and my LinkedIn and GitHub accounts.</p>
+
+			<h2>Wireframes</h2>
+				<h3>Mobile Wireframes</h3>
+					<img src="welcome-and-about-me.png" alt="Welcome and About Me" />
+					<img src="experience-and-testimonial.png" alt="Experience and Testimonial" />
+					<img src="contact-form.png" alt="Contact Form" />
+				<h3>Desktop Wireframes</h3>
+					<img src="desktop-wireframe.png" alt="Desktop Wireframe" />
 	</body>
 </html>
