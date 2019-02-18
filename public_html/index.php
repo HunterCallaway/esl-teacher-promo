@@ -103,6 +103,14 @@
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
 					</div>
 				</div>
+				<div class="row px-5 mr-5">
+					<div class>
+						<h4>Student Testimonial</h4>
+					</div>
+					<div>
+						<p>I had the opportunity to take some English lessons from Hunter. His approach was very interactive and conversational. He is a very great observer and was good at identifying the common mistakes that I made. He was well prepared for each session and he came up with lessons that were tailored to my needs (my primary focus was on the phrasal verbs). I highly recommend Hunter for anyone who is interested in taking their English language skills to the next level!<br>-Moniz M.</p>
+					</div>
+				</div>
 			</div>
 
 
