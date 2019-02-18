@@ -82,16 +82,16 @@
 						<div class="col-sm-9 pl-5 my-auto">
 							<h4>ESL Tutor</h4>
 								<h5>Verbling.com</h5>
-									<p>Provide online ESL instruction</p>
-									<p>April 2017 - Present</p>
+									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-9 pl-5 my-auto">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
-									<p>Taught English in a French primary school</p>
-									<p>October 2012-April 2013</p>
+									<p>Taught English in a French primary school<br>October 2012-April 2013</p>
+						</div class="col-sm-3 py-2">
+							<img src="tapif.png" class="img-fluid" alt="Teaching Assistant Program in France logo" />
 					</div>
 			</div>
 		</section>
