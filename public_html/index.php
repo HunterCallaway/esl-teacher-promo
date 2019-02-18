@@ -46,18 +46,26 @@
 		</header>
 
 		<section>
-			<div class="container-fluid">
-				<div class="col-md-6">
-					<img src="http://placehold.it/1000x550" alt="Placeholder image" class="img-responsive">
-					<div class="carousel-caption">
-						<h1>Learn English with Hunter</h1>
-					</div>
+			<div class="container" id="home">
+					<img src="https://placem.at/things" alt="Placeholder Title Image" class="img-responsive">
+				<div class="carousel-caption">
+					<h1>Learn English with Hunter</h1>
 				</div>
 			</div>
 		</section>
 
 		<section>
-
+			<div class="container" id="about-me">
+				<div class="text-center">
+					<img src="https://placem.at/people" class="rounded" alt="Placeholder Person Image">
+				</div>
+				<div class="container">
+					<p>Hello! Salut! Thanks for visiting my website.</p>
+					<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach English as a Second Language in person and online. I've learned French myself, so I know how challenging learning a foreign language can be. When we have someone to guide us and keep us motivated, however, language learning stops being a pain and becomes a joy.</p>
+					<p>Whether you're learning English for your career, school, or just for fun, I can create lesson plans adapted to your needs.</p>
+					<p>Check out the following sections for more information about me or to get in touch.</p>
+				</div>
+			</div>
 		</section>
 
 		<section>
