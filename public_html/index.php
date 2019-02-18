@@ -46,10 +46,14 @@
 		</header>
 
 		<section>
-			<div class="container" id="home">
-					<img src="https://placem.at/things" alt="Placeholder Title Image" class="img-responsive">
-				<div class="carousel-caption">
-					<h1>Learn English with Hunter</h1>
+			<div class="title">
+				<div class="container">
+					<img src="http://placekitten.com/" alt="Placeholder Image from placekitten.com" />
+					<div class="row">
+						<div class="jumbotron">
+							<h1>Learn English with Hunter</h1>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -57,7 +61,7 @@
 		<section>
 			<div class="container" id="about-me">
 				<div class="text-center">
-					<img src="https://placem.at/people" class="rounded" alt="Placeholder Person Image">
+					<img src="https://via.placeholder.com/150" class="rounded" alt="Placeholder Image C/O https://placeholder.com/ ">
 				</div>
 				<div class="container">
 					<p>Hello! Salut! Thanks for visiting my website.</p>
@@ -73,8 +77,21 @@
 				<h3>Experience</h3>
 					<div class="row">
 						<div class="col-sm-3 py-2">
-							<img src="/verbling.png" class="img-fluid" alt="Verbling Logo" />>
+							<img src="verbling.png" class="img-fluid" alt="Verbling Logo" />
 						</div>
+						<div class="col-sm-9 pl-5 my-auto">
+							<h4>ESL Tutor</h4>
+								<h5>Verbling.com</h5>
+									<p>Provide online ESL instruction</p>
+									<p>April 2017 - Present</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-9 pl-5 my-auto">
+							<h4>English Assistant</h4>
+								<h5>Teaching Assistant Program in France</h5>
+									<p>Taught English in a French primary school</p>
+									<p>October 2012-April 2013</p>
 					</div>
 			</div>
 		</section>
