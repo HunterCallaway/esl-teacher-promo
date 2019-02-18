@@ -46,7 +46,14 @@
 		</header>
 
 		<section>
-
+			<div class="container-fluid">
+				<div class="col-md-6">
+					<img src="http://placehold.it/1000x550" alt="Placeholder image" class="img-responsive">
+					<div class="carousel-caption">
+						<h1>Learn English with Hunter</h1>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section>
