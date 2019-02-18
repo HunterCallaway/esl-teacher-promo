@@ -69,10 +69,12 @@
 		</section>
 
 		<section>
-			<div class="container-fluid bg-secondary py-4" id="experience">
+			<div class="container-fluid py-4" id="experience">
 				<h3>Experience</h3>
-					<div class>
-
+					<div class="row">
+						<div class="col-sm-3 py-2">
+							<img src="/verbling.png" class="img-fluid" alt="Verbling Logo" />>
+						</div>
 					</div>
 			</div>
 		</section>
