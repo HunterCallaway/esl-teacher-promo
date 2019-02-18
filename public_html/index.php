@@ -48,7 +48,7 @@
 		<section>
 			<div class="title">
 				<div class="container">
-					<img src="http://placekitten.com/" alt="Placeholder Image from placekitten.com" />
+					<img src="http://placekitten.com/" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
 					<div class="row">
 						<div class="jumbotron">
 							<h1>Learn English with Hunter</h1>
@@ -113,7 +113,7 @@
 				</div>
 			</div>
 
-
+<!-- The contact form will be placed here. -->
 
 		<footer>
 
