@@ -74,10 +74,10 @@
 			</div>
 		</section>
 
-			<div class="container-fluid py-4" id="experience">
-					<div class="row mx-2">
+			<div class="container-fluid py-4 mx-3" id="experience">
+					<div class="row inline-block">
 						<div class="col-sm-9 py-2">
-							<img src="verbling.png" class="img-fluid" alt="Verbling Logo" />
+							<img src="verbling.png" class="img-fluid verbling" alt="Verbling Logo" />
 						</div>
 						<div class="col-sm-3">
 							<h4>ESL Tutor</h4>
@@ -85,7 +85,7 @@
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row inline-block">
 						<div class="col-sm-9 pl-5 my-auto">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
@@ -95,7 +95,7 @@
 							<img src="tapif.png" class="img-fluid" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
-				<div class="row">
+				<div class="row inline-block">
 					<div class="col-sm-9 py-2">
 						<img src="celta.png" class="img-fluid" alt="CELTA png" />
 					</div>

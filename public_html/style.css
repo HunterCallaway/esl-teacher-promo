@@ -21,15 +21,26 @@ h1 {
 
 p {
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 h3 {
 	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 2.25rem;
 }
 
-.img-fluid {
-	max-width: 60%;
-	max-height: 60%;
+h4 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 2rem
+}
+
+h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size:1.75rem;
+}
+
+.verbling {
+	max-width: 50%;
+	max-height: 50%;
 }
 
