@@ -52,8 +52,8 @@
 		<header>
 			<div class="title" id="home">
 				<div class="container my-5">
-					<img src="place-holder-desk.jpg" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
-						<div class="carousel-caption">
+					<img src="place-holder-desk.jpg" class="img-responsive" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
+						<div class="caption text-center">
 							<h1>Learn English<br> with Hunter</h1>
 						</div>
 					</div>
