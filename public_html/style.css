@@ -11,15 +11,20 @@ header img {
 	vertical-align: center;
 }
 
+h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
 .img-responsive {
 	 margin: 0 auto;
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.25rem;
 }
 
 h3 {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 

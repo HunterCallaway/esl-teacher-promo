@@ -15,6 +15,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+
 		<Title>Learn English with Hunter</Title>
 	</head>
 	<body>
@@ -50,7 +54,7 @@
 				<div class="container my-5">
 					<img src="place-holder-desk.jpg" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
 						<div class="carousel-caption">
-							<h1>Learn English with Hunter</h1>
+							<h1>Learn English<br> with Hunter</h1>
 						</div>
 					</div>
 				</div>
