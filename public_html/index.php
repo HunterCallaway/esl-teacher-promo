@@ -58,8 +58,8 @@
 
 		<section>
 			<div class="container" id="about-me">
-				<div class="text-center">
-					<img src="https://via.placeholder.com/150" class="rounded" alt="Placeholder Image C/O https://placeholder.com/ ">
+				<div class="img-responsive my-5 rounded-circle">
+					<img src="https://via.placeholder.com/150" class="mx-auto d-block" alt="Placeholder Image C/O https://placeholder.com/ ">
 				</div>
 				<div class="container">
 					<p>Hello! Salut! Thanks for visiting my website.</p>

@@ -11,6 +11,9 @@ header img {
 	vertical-align: center;
 }
 
+.img-responsive {
+	 margin: 0 auto;
+}
 
 p {
 	font-family: 'Oswald', sans-serif;
