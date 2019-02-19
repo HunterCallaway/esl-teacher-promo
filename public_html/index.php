@@ -25,7 +25,7 @@
 
 		<nav>
 			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg navbar-light text-muted border-muted">
+				<nav class="navbar navbar-expand-lg navbar-light text-muted border-muted border-bottom">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -50,7 +50,7 @@
 		</nav>
 
 		<header>
-			<div class="title">
+			<div class="title" id="home">
 				<div class="container my-5">
 					<img src="place-holder-desk.jpg" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
 						<div class="carousel-caption">
@@ -67,8 +67,8 @@
 				</div>
 				<div class="container px-3">
 					<p>Hello! Salut! Thanks for visiting my website.</p>
-					<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach English as a Second Language in person and online. I've learned French myself, so I know how challenging learning a foreign language can be. When we have someone to guide us and keep us motivated, however, language learning stops being a pain and becomes a joy.</p>
-					<p>Whether you're learning English for your career, school, or just for fun, I can create lesson plans adapted to your needs.</p>
+					<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach English as a Second Language in person and online. I've learned French to fluency myself, so I know how challenging learning a foreign language can be. When we have someone to guide us and keep us motivated, however, language learning can be a fun and rewarding experience.</p>
+					<p>Whether you're learning English for your career, school, or just for your own enjoyment, I can create lesson plans adapted to your needs.</p>
 					<p>Check out the following sections for more information about me or to get in touch.</p>
 				</div>
 			</div>
