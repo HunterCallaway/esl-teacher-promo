@@ -74,38 +74,38 @@
 			</div>
 		</section>
 
-			<div class="container py-4 mx-3" id="experience">
-					<div class="row inline-block px-4">
-						<div class="col-sm-8 order-1 py-2">
-							<img src="verbling.png" class="img-fluid verbling" alt="Verbling Logo" />
+			<div class="container py-4 px-3" id="experience">
+					<div class="row inline-block pb-5" id="verbling">
+						<div class="col-sm-6 py-2">
+							<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo" />
 						</div>
-						<div class="col-sm-4 order-2">
+						<div class="col-sm-6 text-center">
 							<h4>ESL Tutor</h4>
 								<h5>Verbling.com</h5>
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
-					<div class="row inline-block">
-						<div class="col-sm-9 order-2 pl-5 my-auto">
+					<div class="row inline-block" id="tapif">
+						<div class="col-sm-6  text-center">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
 									<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 						</div>
-						<div class="col-sm-3 order-1 py-2">
-							<img src="tapif.png" class="img-fluid" alt="Teaching Assistant Program in France logo" />
+						<div class="col-sm-6 order-sm-1 py-2">
+							<img src="tapif.jpg" class="img-fluid" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
-				<div class="row inline-block">
-					<div class="col-sm-9 order-1 py-2">
+				<div class="row inline-block" id="celta">
+					<div class="col-sm-9 py-2">
 						<img src="celta.png" class="img-fluid" alt="CELTA png" />
 					</div>
-					<div class="col-sm-3 order-2 pl-5 my-auto">
+					<div class="col-sm-3 text-center">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 							<h5>Teaching House New York</h5>
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
 					</div>
 				</div>
-				<div class="row px-5 mr-5">
+				<div class="row px-5 mr-5" id="testimonial">
 					<div class>
 						<h4>Student Testimonial</h4>
 					</div>
