@@ -75,11 +75,11 @@
 		</section>
 
 			<div class="container-fluid py-4" id="experience">
-					<div class="row">
-						<div class="col-sm-3 py-2">
+					<div class="row mx-2">
+						<div class="col-sm-9 py-2">
 							<img src="verbling.png" class="img-fluid" alt="Verbling Logo" />
 						</div>
-						<div class="col-sm-9 pl-5 my-auto">
+						<div class="col-sm-3">
 							<h4>ESL Tutor</h4>
 								<h5>Verbling.com</h5>
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
@@ -96,10 +96,10 @@
 						</div>
 					</div>
 				<div class="row">
-					<div class="col-sm-3 py-2">
+					<div class="col-sm-9 py-2">
 						<img src="celta.png" class="img-fluid" alt="CELTA png" />
 					</div>
-					<div class="col-sm-9 pl-5 my-auto">
+					<div class="col-sm-3 pl-5 my-auto">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 							<h5>Teaching House New York</h5>
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
