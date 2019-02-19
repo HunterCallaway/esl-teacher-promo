@@ -25,7 +25,7 @@
 
 		<nav>
 			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg navbar-light bg- text-muted rounded border border-muted">
+				<nav class="navbar navbar-expand-lg navbar-light navbar-collapse-sm text-muted rounded border border-muted">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -65,7 +65,7 @@
 				<div class="img-responsive my-5 rounded-circle">
 					<img src="https://via.placeholder.com/150" class="mx-auto d-block" alt="Placeholder Image C/O https://placeholder.com/ ">
 				</div>
-				<div class="container">
+				<div class="container px-3">
 					<p>Hello! Salut! Thanks for visiting my website.</p>
 					<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach English as a Second Language in person and online. I've learned French myself, so I know how challenging learning a foreign language can be. When we have someone to guide us and keep us motivated, however, language learning stops being a pain and becomes a joy.</p>
 					<p>Whether you're learning English for your career, school, or just for fun, I can create lesson plans adapted to your needs.</p>
@@ -74,32 +74,32 @@
 			</div>
 		</section>
 
-			<div class="container-fluid py-4 mx-3" id="experience">
-					<div class="row inline-block">
-						<div class="col-sm-9 py-2">
+			<div class="container py-4 mx-3" id="experience">
+					<div class="row inline-block px-4">
+						<div class="col-sm-8 order-1 py-2">
 							<img src="verbling.png" class="img-fluid verbling" alt="Verbling Logo" />
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-4 order-2">
 							<h4>ESL Tutor</h4>
 								<h5>Verbling.com</h5>
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
 					<div class="row inline-block">
-						<div class="col-sm-9 pl-5 my-auto">
+						<div class="col-sm-9 order-2 pl-5 my-auto">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
 									<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 						</div>
-						<div class="col-sm-3 py-2">
+						<div class="col-sm-3 order-1 py-2">
 							<img src="tapif.png" class="img-fluid" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
 				<div class="row inline-block">
-					<div class="col-sm-9 py-2">
+					<div class="col-sm-9 order-1 py-2">
 						<img src="celta.png" class="img-fluid" alt="CELTA png" />
 					</div>
-					<div class="col-sm-3 pl-5 my-auto">
+					<div class="col-sm-3 order-2 pl-5 my-auto">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 							<h5>Teaching House New York</h5>
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>

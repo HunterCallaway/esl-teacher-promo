@@ -5,10 +5,12 @@ header img {
 	margin:auto;
 	display:block;
 	background-size: contain;
+	position: relative;
 }
 .carousel-caption {
 	text-shadow: 1px 1px 1px #000;
 	vertical-align: center;
+	position: absolute;
 }
 
 h1 {
