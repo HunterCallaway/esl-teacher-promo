@@ -19,7 +19,7 @@
 	</head>
 	<body>
 
-		<header>
+		<nav>
 			<div class="container-fluid">
 				<nav class="navbar navbar-expand-lg navbar-light bg- text-muted rounded border border-muted">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,20 +43,18 @@
 					</div>
 				</nav>
 			</div>
-		</header>
+		</nav>
 
-		<section>
+		<header>
 			<div class="title">
-				<div class="container">
-					<img src="http://placekitten.com/" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
-					<div class="row">
-						<div class="jumbotron">
+				<div class="container my-5">
+					<img src="place-holder-desk.jpg" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
+						<div class="carousel-caption">
 							<h1>Learn English with Hunter</h1>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+		</header>
 
 		<section>
 			<div class="container" id="about-me">
