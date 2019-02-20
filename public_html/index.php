@@ -16,7 +16,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 		<!-- Custom JavaScript -->
-		<script type="text/javascript" src="script.js"></script>
+
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
@@ -29,7 +29,7 @@
 		<nav>
 			<div class="container-fluid">
 				<nav class="navbar navbar-expand-lg navbar-light text-muted border-muted border-bottom">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler ml-auto hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -56,7 +56,7 @@
 			<div class="title" id="home">
 				<div class="container my-5">
 					<img src="place-holder-desk.jpg" class="img-responsive" alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/" />
-						<div class="caption text-center">
+						<div class="caption d-block text-center">
 							<h1>Learn English<br> with Hunter</h1>
 						</div>
 					</div>
@@ -123,9 +123,17 @@
 
 <!-- The contact form will be placed here. -->
 
-		<footer>
-
+		<footer class="social-footer">
+			<div class="social-footer-icons">
+				<ul class="menu simple">
+					<li><a href="https://www.linkedin.com/in/huntercallaway/"><i class="<i class="fab fa-linkedin"></i>" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
 		</footer>
+
+
+		<script type="text/javascript" src="script.js"></script>
 
 	</body>
 </html>
