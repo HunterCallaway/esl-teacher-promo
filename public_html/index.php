@@ -27,6 +27,10 @@
 		<script type="text/javascript" src="script.js"></script>
 		-->
 
+		<!-- Animate on Scroll Library -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
@@ -98,11 +102,14 @@
 		</div>
 		`
 
-		<div class="container" id="experience">
-			<div class="">
+		<div class="container">
+			<div data-aos="slide-right">
 				<h2>Experience</h2>
 			</div>
+		</div>
 
+	<div class="container">
+		<div data-aos="slide-left">
 			<div class="row inline-block pb-5" id="verbling">
 				<div class="col-sm-6 py-2">
 					<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo"/>
@@ -113,7 +120,11 @@
 					<p>Provide online ESL instruction<br>April 2017 - Present</p>
 				</div>
 			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div data-aos="slide-right">
 			<div class="row inline-block pb-5" id="tapif">
 				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 					<h4>English Assistant</h4>
@@ -124,7 +135,11 @@
 					<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
 				</div>
 			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div data-aos="slide-left">
 			<div class="row inline-block pb-5" id="celta">
 				<div class="col-sm-6 py-2">
 					<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
@@ -135,7 +150,11 @@
 					<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
 				</div>
 			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div data-aos="slide-right">
 			<div class="row px-5 mr-5" id="testimonial">
 				<div class>
 					<h4>Student Testimonial</h4>
@@ -149,6 +168,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
 		<!-- The contact form will be placed here. -->
 		<div class="container">
@@ -162,6 +182,11 @@
 				</div>
 			</footer>
 		</div>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 	</body>
 </html>
