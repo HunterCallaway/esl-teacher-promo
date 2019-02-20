@@ -78,10 +78,10 @@
 		</section>
 
 			<div class="container py-4 px-3" id="experience">
-				<div class="align-left slide-in">
+				<div id="align-left slide-in">
 					<h2>Experience</h2>
 				</div>
-					<div class="row inline-block pb-5 align-right active" id="verbling">
+					<div class="row inline-block pb-5 align-right slide-in" id="verbling">
 						<div class="col-sm-6 py-2">
 							<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo" />
 						</div>
@@ -91,7 +91,7 @@
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
-					<div class="row inline-block pb-5 align-left active" id="tapif">
+					<div class="row inline-block pb-5 align-left slide-in" id="tapif">
 						<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
@@ -101,7 +101,7 @@
 							<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
-				<div class="row inline-block pb-5 align-items-center align-left active" id="celta">
+				<div class="row inline-block pb-5 align-items-center align-left slide-in" id="celta">
 					<div class="col-sm-6 py-2">
 						<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png" />
 					</div>
@@ -111,7 +111,7 @@
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
 					</div>
 				</div>
-				<div class="row px-5 mr-5 align-left active" id="testimonial">
+				<div class="row px-5 mr-5 align-left slide-in" id="testimonial">
 					<div class>
 						<h4>Student Testimonial</h4>
 					</div>

@@ -5,21 +5,21 @@
 function debounce(func, wait = 20, immediate = true) {
 	let timeout;
 	return () => {
-		let context = this, args = arguments;
-		let later = () => {
+		const context = this, args = arguments;
+		const later = () => {
 			timeout = null;
 			if (!immediate) func.apply(context, args);
 		};
-		let callNow = immediate && !timeout;
+		const callNow = immediate && !timeout;
 		clearTimeout(timeout);
 		timeout = setTimeout(later, wait);
 		if (callNow) func.apply(context, args);
 	};
 }
 
-const sliderElements = document.querySelectorAll(".slide-in");
+const sliderElements = document.querySelectorAll('.slide-in');
 
-function checkSlide(event) {
+function checkSlide() {
 	//console.log(event);
 	//console.log(window.scrollY);
 	sliderElements.forEach(sliderElement => {
@@ -30,11 +30,11 @@ function checkSlide(event) {
 		const isHalfShown = slideInAt > sliderElement.offsetTop;
 		const isNotScrolledPast = window.scrollY < elementBottom;
 		if(isHalfShown && isNotScrolledPast) {
-			sliderElement.classList.add("active");
+			sliderElement.classList.add('active');
 		} else {
-			sliderElement.classList.remove("active");
+			sliderElement.classList.remove('active');
 		}
 	});
 }
 
-window.addEventListener("scroll", debounce(checkSlide));
+window.addEventListener('scroll', debounce(checkSlide));
