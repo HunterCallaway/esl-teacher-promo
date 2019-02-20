@@ -22,6 +22,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 		<Title>Learn English with Hunter</Title>
 	</head>
 	<body>
@@ -63,7 +66,7 @@
 				</div>
 		</header>
 
-		<section>
+
 			<div class="container" id="about-me">
 				<div class="img-responsive my-5 rounded-circle">
 					<img src="https://via.placeholder.com/150" class="mx-auto d-block" alt="Placeholder Image C/O https://placeholder.com/ ">
@@ -75,12 +78,13 @@
 					<p>Check out the following sections for more information about me or to get in touch.</p>
 				</div>
 			</div>
-		</section>
 
-			<div class="container py-4 px-3" id="experience">
+
+			<div class="container" id="experience">
 				<div class="align-left slide-in">
 					<h2>Experience</h2>
 				</div>
+
 					<div class="row inline-block pb-5 align-right slide-in" id="verbling">
 						<div class="col-sm-6 py-2">
 							<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo" />
@@ -91,26 +95,31 @@
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
+
 					<div class="row inline-block pb-5 align-left slide-in" id="tapif">
 						<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
 									<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 						</div>
+
 						<div class="col-sm-6 order-sm-1 py-2">
 							<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
+
 				<div class="row inline-block pb-5 align-items-center align-left slide-in" id="celta">
 					<div class="col-sm-6 py-2">
 						<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png" />
 					</div>
+
 					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 							<h5>Teaching House New York</h5>
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
 					</div>
 				</div>
+
 				<div class="row px-5 mr-5 align-left slide-in" id="testimonial">
 					<div class>
 						<h4>Student Testimonial</h4>
@@ -122,15 +131,16 @@
 			</div>
 
 <!-- The contact form will be placed here. -->
-
+	<div class="container">
 		<footer class="social-footer">
 			<div class="social-footer-icons">
 				<ul class="menu simple">
-					<li><a href="https://www.linkedin.com/in/huntercallaway/"><i class="<i class="fab fa-linkedin"></i>" aria-hidden="true"></i></a></li>
-					<li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/huntercallaway/"><i class="<i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/HunterCallaway"><i class="<i class="fab fa-github"></i></a></li>
 				</ul>
 			</div>
 		</footer>
+	</div>
 
 
 		<script type="text/javascript" src="script.js"></script>
