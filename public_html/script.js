@@ -3,6 +3,7 @@
  */
 
 function debounce(func, wait = 20, immediate = true) {
+	console.log("I Win!!!");
 	let timeout;
 	return () => {
 		const context = this, args = arguments;
@@ -20,15 +21,18 @@ function debounce(func, wait = 20, immediate = true) {
 const sliderElements = document.querySelectorAll('.slide-in');
 
 function checkSlide() {
-	//console.log(event);
-	//console.log(window.scrollY);
+	console.log(sliderElements);
+	console.log("I Win!!!");
+	console.log(window.scrollY);
 	sliderElements.forEach(sliderElement => {
 		//Half way through the image
 		const slideInAt = (window.scrollY + window.innerHeight) - sliderElement.height / 2;
 		//Bottom of the image
 		const elementBottom = sliderElement.offsetTop + sliderElement.height;
 		const isHalfShown = slideInAt > sliderElement.offsetTop;
+		console.log(isHalfShown);
 		const isNotScrolledPast = window.scrollY < elementBottom;
+		console.log(isNotScrolledPast);
 		if(isHalfShown && isNotScrolledPast) {
 			sliderElement.classList.add('active');
 		} else {
