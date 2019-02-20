@@ -75,6 +75,9 @@
 		</section>
 
 			<div class="container py-4 px-3" id="experience">
+				<div id="experience-title">
+					<h2>Experience</h2>
+				</div>
 					<div class="row inline-block pb-5" id="verbling">
 						<div class="col-sm-6 py-2">
 							<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo" />
