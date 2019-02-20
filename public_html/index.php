@@ -78,7 +78,7 @@
 		</section>
 
 			<div class="container py-4 px-3" id="experience">
-				<div id="align-left slide-in">
+				<div class="align-left slide-in">
 					<h2>Experience</h2>
 				</div>
 					<div class="row inline-block pb-5 align-right slide-in" id="verbling">
