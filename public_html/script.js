@@ -17,9 +17,20 @@ const sliderElements = document.querySelectorAll(".slide-in");
 
 function checkSlide(event) {
 	//console.log(event);
-	sliderElements.forEach(slideElement => {
-		const slideInAt =
-	})
+	//console.log(window.scrollY);
+	sliderElements.forEach(sliderElement => {
+		//Half way through the image
+		const slideInAt = (window.scrollY + window.innerHeight) - sliderElement.height / 2;
+		//Bottom of the image
+		const elementBottom = sliderElement.offsetTop + sliderElement.height;
+		const isHalfShown = slideInAt > sliderElement.offsetTop;
+		const isNotScrolledPast = window.scrollY < elementBottom;
+		if(isHalfShown && isNotScrolledPast) {
+			sliderElement.classList.add("active");
+		} else {
+			sliderElement.classList.remove("active");
+		}
+	});
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
