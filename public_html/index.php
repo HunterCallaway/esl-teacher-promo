@@ -79,27 +79,27 @@
 						<div class="col-sm-6 py-2">
 							<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo" />
 						</div>
-						<div class="col-sm-6 text-center">
+						<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 							<h4>ESL Tutor</h4>
 								<h5>Verbling.com</h5>
 									<p>Provide online ESL instruction<br>April 2017 - Present</p>
 						</div>
 					</div>
-					<div class="row inline-block" id="tapif">
-						<div class="col-sm-6  text-center">
+					<div class="row inline-block pb-5" id="tapif">
+						<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 							<h4>English Assistant</h4>
 								<h5>Teaching Assistant Program in France</h5>
 									<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 						</div>
 						<div class="col-sm-6 order-sm-1 py-2">
-							<img src="tapif.jpg" class="img-fluid" alt="Teaching Assistant Program in France logo" />
+							<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo" />
 						</div>
 					</div>
-				<div class="row inline-block" id="celta">
-					<div class="col-sm-9 py-2">
-						<img src="celta.png" class="img-fluid" alt="CELTA png" />
+				<div class="row inline-block pb-5 align-items-center" id="celta">
+					<div class="col-sm-6 py-2">
+						<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png" />
 					</div>
-					<div class="col-sm-3 text-center">
+					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 							<h5>Teaching House New York</h5>
 								<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
