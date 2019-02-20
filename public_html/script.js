@@ -17,6 +17,9 @@ const sliderElements = document.querySelectorAll(".slide-in");
 
 function checkSlide(event) {
 	//console.log(event);
+	sliderElements.forEach(slideElement => {
+		const slideInAt =
+	})
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
