@@ -1,3 +1,7 @@
+/*
+ Note: The following code was taken from JavaScript30 - Lesson 13
+ */
+
 function debounce(func, wait = 20, immediate = true) {
 	let timeout;
 	return () => {
