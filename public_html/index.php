@@ -73,13 +73,7 @@
 
 		<div class="container hero"  id="home">
 			<div class="row">
-				<div class="text-center">
-					<img src="place-holder-desk.jpg" class="img-responsive fit-image"
-						  alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/"/>
-					<div class="caption text-center">
-						<h1>Learn English<br> with Hunter</h1>
-					</div>
-				</div>
+				<h1>Learn English<br> with Hunter</h1>
 			</div>
 		</div>
 
