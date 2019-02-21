@@ -35,9 +35,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-				integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!-- Social Footer, Colour Matching Icons -->
+		<!-- Include Font Awesome Stylesheet in Header -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 		<Title>Learn English with Hunter</Title>
 	</head>
@@ -171,10 +172,11 @@
 	</div>
 
 		<!-- The contact form will be placed here. -->
-		<div class="container">
-			<div class="text-center center-block">
-				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square"></i></a>
-				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-google-plus-square fa-3x social"></i></a>
+
+		<div class="container-fluid">
+			<div class="text-center center-block bg-dark">
+				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-github-square" aria-hidden="true"></i></a>
 			</div>
 		</div>
 

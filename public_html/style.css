@@ -22,7 +22,7 @@ header img {
 
 h1 {
 	font-family: 'Quattrocento Sans', sans-serif;
-	font-size: 2.75em;
+	font-size: 2.75rem;
 }
 
 .img-responsive {
@@ -36,7 +36,7 @@ p {
 
 h2 {
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 h3 {
@@ -64,7 +64,12 @@ h5 {
 	max-width:50%;
 }
 
-
+#social-li:hover {
+	color: #0077B5;
+}
+#social-gh:hover {
+	color: #6CC644;
+}
 
 /*
 
