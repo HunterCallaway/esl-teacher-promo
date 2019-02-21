@@ -155,15 +155,13 @@
 
 		<div class="container">
 			<div data-aos="slide-right">
-				<div class="row px-5 mr-5" id="testimonial">
+				<div class="row px-5" id="testimonial">
 					<div class>
 						<h4>Student Testimonial</h4>
 					</div>
 					<div>
-						<p>I had the opportunity to take some English lessons from Hunter. His approach was very interactive and
-							conversational. He is a very great observer and was good at identifying the common mistakes that I
-							made. He was well prepared for each session and he came up with lessons that were tailored to my needs
-							(my primary focus was on the phrasal verbs). I highly recommend Hunter for anyone who is interested in
+						<p>I had the opportunity to take lessons from Hunter one year ago. His approach was very interactive and
+							conversational. He was well prepared for each session and came up with lessons that were tailored to my needs. I highly recommend Hunter for anyone who is interested in
 							taking their English language skills to the next level!<br>-Moniz M.</p>
 					</div>
 				</div>
