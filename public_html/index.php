@@ -71,17 +71,17 @@
 			</div>
 		</nav>
 
-		<header>
-			<div class="title" id="home">
-				<div class="container my-5">
-					<img src="place-holder-desk.jpg" class="img-responsive"
+		<div class="container"  id="home">
+			<div class="row">
+				<div class="text-center">
+					<img src="place-holder-desk.jpg" class="img-responsive fit-image"
 						  alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/"/>
 					<div class="caption d-block text-center">
 						<h1>Learn English<br> with Hunter</h1>
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
 
 
 		<div class="container" id="about-me">
@@ -125,7 +125,7 @@
 
 	<div class="container">
 		<div data-aos="slide-right">
-			<div class="row inline-block pb-5" id="tapif">
+			<div class="row inline-block pb-5 flex-column-reverse" id="tapif">
 				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 					<h4>English Assistant</h4>
 					<h5>Teaching Assistant Program in France</h5>
@@ -174,8 +174,8 @@
 
 		<div class="container-fluid">
 			<div class="text-center bg-dark py-2">
-				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square fa-2x px-5 text-white" aria-hidden="true"></i></a>
-				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-github-square fa-2x px-5 text-white" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square fa-2x px-5" aria-hidden="true"></i></a>
+				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-github-square fa-2x px-5" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
