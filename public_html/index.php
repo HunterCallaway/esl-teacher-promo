@@ -126,7 +126,7 @@
 	<div class="container">
 		<div data-aos="slide-right">
 			<div class="row inline-block pb-5" id="tapif">
-				<div class="col-sm-6 justify-content-center flex-column text-center">
+				<div class="col-sm-6 flex-column align-items-center text-center my-auto">
 					<h4>English Assistant</h4>
 					<h5>Teaching Assistant Program in France</h5>
 					<p>Taught English in a French primary school<br>October 2012-April 2013</p>
@@ -141,7 +141,7 @@
 	<div class="container">
 		<div data-aos="slide-left">
 			<div class="row inline-block pb-5" id="celta">
-				<div class="col-sm-6 py-2 pb-sm-2">
+				<div class="col-sm-6 py-2 pb-sm-2 my-auto">
 					<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
 				</div>
 				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
