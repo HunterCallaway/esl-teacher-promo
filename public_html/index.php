@@ -85,19 +85,23 @@
 
 
 		<div class="container" id="about-me">
-			<div class="img-responsive my-5 rounded-circle">
-				<img src="https://via.placeholder.com/150" class="mx-auto d-block"
-					  alt="Placeholder Image C/O https://placeholder.com/ ">
+			<div data-aos="slide-right">
+				<div class="img-responsive my-5 rounded-circle">
+					<img src="https://via.placeholder.com/150" class="mx-auto d-block"
+						  alt="Placeholder Image C/O https://placeholder.com/ ">
+				</div>
 			</div>
 			<div class="container px-3">
-				<p>Hello! Salut! Thanks for visiting my website.</p>
-				<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach
-					English as a Second Language in person and online. I've learned French to fluency myself, so I know how
-					challenging learning a foreign language can be. When we have someone to guide us and keep us motivated,
-					however, language learning can be a fun and rewarding experience.</p>
-				<p>Whether you're learning English for your career, school, or just for your own enjoyment, I can create
-					lesson plans adapted to your needs.</p>
-				<p>Check out the following sections for more information about me or to get in touch.</p>
+				<div data-aos="slide-left">
+					<p>Hello! Salut! Thanks for visiting my website.</p>
+					<p>My name is Hunter Callaway. I work as a web developer in Albuquerque, New Mexico, but I also teach
+						English as a Second Language in person and online. I've learned French to fluency myself, so I know how
+						challenging learning a foreign language can be. When we have someone to guide us and keep us motivated,
+						however, language learning can be a fun and rewarding experience.</p>
+					<p>Whether you're learning English for your career, school, or just for your own enjoyment, I can create
+						lesson plans adapted to your needs.</p>
+					<p>Check out the following sections for more information about me or to get in touch.</p>
+				</div>
 			</div>
 		</div>
 
@@ -176,7 +180,7 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
-		<form class="px-3 pb-5 border border-muted">
+		<form class="px-3 py-2 border">
 			<div class="form-group">
 				<label for="exampleInputName">Name</label>
 				<input type="text" class="form-control" id="exampleInputName" aria-describedby="name" placeholder="Enter your name">
@@ -192,7 +196,7 @@
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 
-		<div>
+		<div class="pt-3 pb-3">
 			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955">Click here to visit my Verbling teacher profile!</a></p>
 		</div>
 

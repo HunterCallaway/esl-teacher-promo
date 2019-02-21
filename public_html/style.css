@@ -82,7 +82,11 @@ h5 {
 	font-size: 50px;
 }
 
-
+.border {
+	border:1rem gray solid;
+	margin:20px;
+	padding:20px;
+}
 
 /*
 
