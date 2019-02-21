@@ -18,6 +18,9 @@ html, body {
 	text-align: center;
 }
 
+.hero h1 {
+	margin-top: 150px;
+}
 
 .img-responsive {
 	 margin: 0 auto;
