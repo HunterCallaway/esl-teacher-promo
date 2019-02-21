@@ -71,12 +71,12 @@
 			</div>
 		</nav>
 
-		<div class="container"  id="home">
+		<div class="container hero"  id="home">
 			<div class="row">
 				<div class="text-center">
 					<img src="place-holder-desk.jpg" class="img-responsive fit-image"
 						  alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/"/>
-					<div class="text-center">
+					<div class="caption text-center">
 						<h1>Learn English<br> with Hunter</h1>
 					</div>
 				</div>
@@ -100,71 +100,72 @@
 				<p>Check out the following sections for more information about me or to get in touch.</p>
 			</div>
 		</div>
-		`
 
+	<div id="experience">
 		<div class="container">
 			<div data-aos="slide-right">
 				<h2>Experience</h2>
 			</div>
 		</div>
 
-	<div class="container">
-		<div data-aos="slide-left">
-			<div class="row inline-block pb-5" id="verbling">
-				<div class="col-sm-6 py-2">
-					<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo"/>
-				</div>
-				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
-					<h4>ESL Tutor</h4>
-					<h5>Verbling.com</h5>
-					<p>Provide online ESL instruction<br>April 2017 - Present</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div data-aos="slide-right">
-			<div class="row inline-block pb-5" id="tapif">
-				<div class="col-sm-6 flex-column align-items-center text-center my-auto">
-					<h4>English Assistant</h4>
-					<h5>Teaching Assistant Program in France</h5>
-					<p>Taught English in a French primary school<br>October 2012-April 2013</p>
-				</div>
-				<div class="col-sm-6 py-2">
-					<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
+		<div class="container">
+			<div data-aos="slide-left">
+				<div class="row inline-block pb-5" id="verbling">
+					<div class="col-sm-6 py-2">
+						<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo"/>
+					</div>
+					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
+						<h4>ESL Tutor</h4>
+						<h5>Verbling.com</h5>
+						<p>Provide online ESL instruction<br>April 2017 - Present</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		<div data-aos="slide-left">
-			<div class="row inline-block pb-5" id="celta">
-				<div class="col-sm-6 py-2 pb-sm-2 my-auto">
-					<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
-				</div>
-				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
-					<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
-					<h5>Teaching House New York</h5>
-					<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
+		<div class="container">
+			<div data-aos="slide-right">
+				<div class="row inline-block pb-5" id="tapif">
+					<div class="col-sm-6 flex-column align-items-center text-center my-auto">
+						<h4>English Assistant</h4>
+						<h5>Teaching Assistant Program in France</h5>
+						<p>Taught English in a French primary school<br>October 2012-April 2013</p>
+					</div>
+					<div class="col-sm-6 py-2">
+						<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		<div data-aos="slide-right">
-			<div class="row px-5 mr-5" id="testimonial">
-				<div class>
-					<h4>Student Testimonial</h4>
+		<div class="container">
+			<div data-aos="slide-left">
+				<div class="row inline-block pb-5" id="celta">
+					<div class="col-sm-6 py-2 pb-sm-2 my-auto">
+						<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
+					</div>
+					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
+						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
+						<h5>Teaching House New York</h5>
+						<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
+					</div>
 				</div>
-				<div>
-					<p>I had the opportunity to take some English lessons from Hunter. His approach was very interactive and
-						conversational. He is a very great observer and was good at identifying the common mistakes that I
-						made. He was well prepared for each session and he came up with lessons that were tailored to my needs
-						(my primary focus was on the phrasal verbs). I highly recommend Hunter for anyone who is interested in
-						taking their English language skills to the next level!<br>-Moniz M.</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div data-aos="slide-right">
+				<div class="row px-5 mr-5" id="testimonial">
+					<div class>
+						<h4>Student Testimonial</h4>
+					</div>
+					<div>
+						<p>I had the opportunity to take some English lessons from Hunter. His approach was very interactive and
+							conversational. He is a very great observer and was good at identifying the common mistakes that I
+							made. He was well prepared for each session and he came up with lessons that were tailored to my needs
+							(my primary focus was on the phrasal verbs). I highly recommend Hunter for anyone who is interested in
+							taking their English language skills to the next level!<br>-Moniz M.</p>
+					</div>
 				</div>
 			</div>
 		</div>
