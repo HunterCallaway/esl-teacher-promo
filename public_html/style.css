@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden;
+}
 
 header img {
 	max-width: 100%;
@@ -61,6 +64,12 @@ h5 {
 	max-width:50%;
 }
 
+
+
+/*
+
+Note: This was the CSS for the custom JavaScript file.
+
 .align-left {
 	float: left;
 	margin-right: 20px;
@@ -84,5 +93,6 @@ h5 {
 	opacity: 1;
 	transform: translateX(0%) scale(1);
 }
+*/
 
 

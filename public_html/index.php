@@ -41,7 +41,7 @@
 
 		<Title>Learn English with Hunter</Title>
 	</head>
-	<body">
+	<body>
 <!--	onscroll="debounce(checkSlide)-->
 		<nav>
 			<div class="container-fluid">
@@ -131,7 +131,7 @@
 					<h5>Teaching Assistant Program in France</h5>
 					<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 				</div>
-				<div class="col-sm-6 order-sm-1 py-2">
+				<div class="col-sm-6 py-2">
 					<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
 				</div>
 			</div>
@@ -141,7 +141,7 @@
 	<div class="container">
 		<div data-aos="slide-left">
 			<div class="row inline-block pb-5" id="celta">
-				<div class="col-sm-6 py-2">
+				<div class="col-sm-6 py-2 pb-sm-2">
 					<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
 				</div>
 				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
@@ -172,15 +172,10 @@
 
 		<!-- The contact form will be placed here. -->
 		<div class="container">
-			<footer class="social-footer">
-				<div class="social-footer-icons">
-					<ul class="menu simple">
-						<li><a href="https://www.linkedin.com/in/huntercallaway/"><i class="<i class=" fab fa-linkedin"></i>
-							</a></li>
-						<li><a href="https://github.com/HunterCallaway"><i class="<i class=" fab fa-github"></i></a></li>
-					</ul>
-				</div>
-			</footer>
+			<div class="text-center center-block">
+				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square"></i></a>
+				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-google-plus-square fa-3x social"></i></a>
+			</div>
 		</div>
 
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
