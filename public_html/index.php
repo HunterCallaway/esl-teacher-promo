@@ -125,7 +125,7 @@
 
 		<div class="container">
 			<div data-aos="slide-right">
-				<div class="row inline-block pb-5" id="tapif">
+				<div class="row flex-column-reverse flex-sm-row inline-block pb-5" id="tapif">
 					<div class="col-sm-6 flex-column align-items-center text-center my-auto">
 						<h4>English Assistant</h4>
 						<h5>Teaching Assistant Program in France</h5>
