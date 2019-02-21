@@ -76,7 +76,7 @@
 				<div class="text-center">
 					<img src="place-holder-desk.jpg" class="img-responsive fit-image"
 						  alt="Placeholder Image from https://pixabay.com/en/gray-computer-mobile-2158653/"/>
-					<div class="caption d-block text-center">
+					<div class="text-center">
 						<h1>Learn English<br> with Hunter</h1>
 					</div>
 				</div>
@@ -125,8 +125,8 @@
 
 	<div class="container">
 		<div data-aos="slide-right">
-			<div class="row inline-block pb-5 flex-column-reverse" id="tapif">
-				<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
+			<div class="row inline-block pb-5" id="tapif">
+				<div class="col-sm-6 justify-content-center flex-column text-center">
 					<h4>English Assistant</h4>
 					<h5>Teaching Assistant Program in France</h5>
 					<p>Taught English in a French primary school<br>October 2012-April 2013</p>
