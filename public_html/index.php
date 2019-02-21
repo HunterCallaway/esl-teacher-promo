@@ -71,7 +71,7 @@
 			</div>
 		</nav>
 
-		<div class="container hero"  id="home">
+		<div class="container-fluid hero"  id="home">
 			<div class="row">
 				<h1>Learn English<br> with Hunter</h1>
 			</div>
