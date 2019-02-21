@@ -169,7 +169,32 @@
 		</div>
 	</div>
 
-		<!-- The contact form will be placed here. -->
+
+		<!-- This is a dummy form. -->
+
+	<div id="contact">
+		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
+	</div>
+
+		<form class="px-3 pb-5 border border-muted">
+			<div class="form-group">
+				<label for="exampleInputName">Name</label>
+				<input type="text" class="form-control" id="exampleInputName" aria-describedby="name" placeholder="Enter your name">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputMessage">Message</label>
+				<input type="text" class="form-control" id="exampleInputMessage" aria-describedby="message" placeholder="Enter your message">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+		<div>
+			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955">Click here to visit my Verbling teacher profile!</a></p>
+		</div>
 
 		<div class="container-fluid">
 			<div class="text-center bg-dark py-2">
