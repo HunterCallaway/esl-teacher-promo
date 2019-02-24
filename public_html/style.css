@@ -30,6 +30,12 @@ html, body {
 	vertical-align: center;
 }
 
+#about-me img {
+	border-radius: 50%;
+	max-height: 200px;
+	max-width: 200px;
+}
+
 p {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 1.5rem;

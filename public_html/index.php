@@ -81,8 +81,8 @@
 		<div class="container" id="about-me">
 			<div data-aos="slide-right">
 				<div class="img-responsive my-5 rounded-circle">
-					<img src="https://via.placeholder.com/150" class="mx-auto d-block"
-						  alt="Placeholder Image C/O https://placeholder.com/ ">
+					<img src="portrait.jpg" class="mx-auto d-block"
+						  alt="Portrait picture courtesy of Wyatt Salmons" />
 				</div>
 			</div>
 			<div class="container px-3">
