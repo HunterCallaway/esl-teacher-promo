@@ -5,7 +5,7 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Hunter Callaway <jcallaway3@cnm.edu>
  **/
 // require all composer dependencies
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
@@ -13,7 +13,7 @@ require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 require_once("mail-config.php");
 
 use \SendGrid\Mail;
-$sendgrid = new \SendGrid($sendGridSecret);
+$sendgrid = new \SendGrid($smtpSecret);
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
@@ -27,10 +27,9 @@ try {
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/
-	$name = filter_input(INPUT_POST, "i", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "enjoy", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "copy", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$message = filter_input(INPUT_POST, "pasta", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "contactName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
+	$message = filter_input(INPUT_POST, "contactMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create SendGrid object
 	$emailObject = new Mail();
 	/**
@@ -45,7 +44,7 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$emailObject->addTo($recipients[0], $recipients[1]);
 	// attach the subject line to the message
-	$emailObject->setSubject($subject);
+	$emailObject->setSubject("ESL Lessons");
 	/**
 	 * Attach the actual content for the email.
 	 **/
