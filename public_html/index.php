@@ -151,12 +151,15 @@
 			<div data-aos="slide-left">
 				<div class="row inline-block pb-5" id="celta">
 					<div class="col-sm-6 py-2 pb-sm-2 my-auto">
-						<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
+						<a href="https://drive.google.com/file/d/1ZURbUsdH57HZswZlNr3Q4-qipyl6Wvb_/view?usp=sharing">
+							<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
+						</a>
 					</div>
 					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 						<h4>Certificate in Teaching English <br>to Speakers of Other Languages</h4>
 						<h5>Teaching House New York</h5>
 						<p>Certification based on specifications <br>produced by Cambridge Assessment English<br>October 2009</p>
+						<p><em>Click the image to see a larger version.</em></p>
 					</div>
 				</div>
 			</div>
