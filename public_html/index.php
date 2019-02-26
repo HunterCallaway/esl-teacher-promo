@@ -185,13 +185,13 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
+	<div class="contact form border">
 		<form id="hunters-contact-form" action="php/mailer.php" method="post">
 			<div class="form-group">
 				<label for="contact-name">Your Name <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
-						<i class="fa fa-user" aria-hidden="true"></i>
 					</div>
 					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 				</div>
@@ -201,7 +201,6 @@
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
-						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
 					<input type="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="Email address">
 				</div>
@@ -211,7 +210,6 @@
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
-						<i class="fa fa-comment" aria-hidden="true"></i>
 					</div>
 					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="Enter your message here."></textarea>
 				</div>
@@ -220,9 +218,10 @@
 			<!-- reCAPTCHA Site Key -->
 			<div class="g-recaptcha" data-sitekey="6LfQEpQUAAAAAJUTjafoHXDAegwy1027x4yJ5ryi"></div>
 
-			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			<button class="btn btn-success mt-2" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+			<button class="btn btn-warning mt-2" type="reset"><i class="fa fa-ban"></i> Reset</button>
 		</form>
+	</div>
 
 		<!--empty area for form error/success output-->
 		<div class="row">
