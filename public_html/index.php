@@ -185,7 +185,7 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
-		<form id="hunters-contact form" action="php/mailer.php" method="post">
+		<form id="hunters-contact-form" action="php/mailer.php" method="post">
 			<div class="form-group">
 				<label for="contact-name">Your Name <span class="text-danger">*</span></label>
 				<div class="input-group">
@@ -197,7 +197,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="contactDemoEmail">Email address<span class="text-danger">*</span></label>
+				<label for="contactEmail">Email address<span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
