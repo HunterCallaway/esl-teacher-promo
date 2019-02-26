@@ -27,11 +27,11 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
 
 		<!-- Custom JavaScript -->
 		<!--
@@ -187,38 +187,38 @@
 
 		<form id="hunters-contact form" action="php/mailer.php" method="post">
 			<div class="form-group">
-				<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+				<label for="contact-name">Your Name <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 						<i class="fa fa-user" aria-hidden="true"></i>
 					</div>
-					<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+				<label for="contactDemoEmail">Email address<span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
-					<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+					<input type="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="Email address">
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+				<label for="contactMessage">Message <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 						<i class="fa fa-comment" aria-hidden="true"></i>
 					</div>
-					<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="Enter your message here."></textarea>
 				</div>
 			</div>
 
-			<!-- reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+			<!-- reCAPTCHA Site Key -->
+			<div class="g-recaptcha" data-sitekey="6LfQEpQUAAAAAJUTjafoHXDAegwy1027x4yJ5ryi"></div>
 
 			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
