@@ -185,21 +185,51 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
-		<form class="px-3 py-2 border">
+		<form id="hunters-contact form" action="php/mailer.php" method="post">
 			<div class="form-group">
-				<label for="exampleInputName">Name</label>
-				<input type="text" class="form-control" id="exampleInputName" aria-describedby="name" placeholder="Enter your name">
+				<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+				</div>
 			</div>
 			<div class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+				<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</div>
+					<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+				</div>
 			</div>
 			<div class="form-group">
-				<label for="exampleInputMessage">Message</label>
-				<input type="text" class="form-control" id="exampleInputMessage" aria-describedby="message" placeholder="Enter your message">
+				<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+					</div>
+					<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+				</div>
 			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
+
+			<!-- reCAPTCHA -->
+			<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 		</form>
+
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
 
 		<div class="pt-3 pb-3">
 			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955">Click here to visit my Verbling teacher profile!</a></p>
