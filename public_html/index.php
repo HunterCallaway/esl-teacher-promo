@@ -12,9 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<!-- Bootstrap JavaScript files -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-				  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-				  crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+				  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 				  crossorigin="anonymous"></script>
@@ -23,9 +22,13 @@
 				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -189,9 +192,9 @@
 	</div>
 
 	<div class="contact form border">
-		<form id="hunters-contact-form" action="php/mailer.php" method="post">
+		<form id="hunters-contact-form" action="php/mailer.php" method="post" novalidate>
 			<div class="form-group">
-				<label for="contact-name">Your Name <span class="text-danger">*</span></label>
+				<label for="contactName">Your Name <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>

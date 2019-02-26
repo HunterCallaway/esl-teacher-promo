@@ -64,7 +64,7 @@ $(document).ready(function() {
 
 						//Reset the form if it was successful.
 						if($(".alert-success").length >= 1) {
-							$("#my-contact-form")[0].reset();
+							$("#hunters-contact-form")[0].reset();
 						}
 					}
 				})
