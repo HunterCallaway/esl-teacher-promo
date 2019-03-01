@@ -14,14 +14,14 @@ require_once("mail-config.php");
 
 use \SendGrid\Mail;
 $sendgrid = new \SendGrid($smtpSecret);
-// verify user's reCAPTCHA input
+// Verify the user's reCAPTCHA input.
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 try {
-	// if there's a reCAPTCHA error, throw an exception
-//	if (!$resp->isSuccess()) {
-//		throw(new Exception("reCAPTCHA error!"));
-//	}
+	//If there's a reCAPTCHA error, throw an exception.
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
+	}
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,

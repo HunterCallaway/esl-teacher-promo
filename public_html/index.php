@@ -154,7 +154,7 @@
 			<div data-aos="slide-left">
 				<div class="row inline-block pb-5" id="celta">
 					<div class="col-sm-6 py-2 pb-sm-2 my-auto">
-						<a href="https://drive.google.com/file/d/1ZURbUsdH57HZswZlNr3Q4-qipyl6Wvb_/view?usp=sharing">
+						<a href="https://drive.google.com/file/d/1ZURbUsdH57HZswZlNr3Q4-qipyl6Wvb_/view?usp=sharing" target="_blank">
 							<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
 						</a>
 					</div>
