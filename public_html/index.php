@@ -237,7 +237,7 @@
 		</div>
 
 		<div class="pt-3 pb-3">
-			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955">Click here to visit my Verbling teacher profile!</a></p>
+			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955" target="_blank">Click here to visit my Verbling teacher profile!</a></p>
 		</div>
 
 		<div class="container-fluid">
