@@ -240,7 +240,7 @@
 			<p class="text-center"><a href="https://www.verbling.com/teachers/40855554953217312955" target="_blank">Click here to visit my Verbling teacher profile!</a></p>
 		</div>
 
-		<div class="container-fluid">
+		<div class="container-fluid footer">
 			<div class="text-center bg-dark py-2">
 				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square fa-2x px-5" aria-hidden="true"></i></a>
 				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-github-square fa-2x px-5" aria-hidden="true"></i></a>
