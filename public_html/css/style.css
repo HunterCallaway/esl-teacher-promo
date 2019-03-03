@@ -4,7 +4,7 @@ html, body {
 }
 
 .hero {
-	background: url(place-holder-desk.jpg);
+	background: url(../place-holder-desk.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;

@@ -9,7 +9,7 @@
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Bootstrap JavaScript files -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -95,7 +95,7 @@
 		<div class="container" id="about-me">
 			<div data-aos="slide-right">
 				<div class="img-responsive my-5 rounded-circle">
-					<img src="portrait.jpg" class="mx-auto d-block"
+					<img src="images/portrait.jpg" class="mx-auto d-block"
 						  alt="Portrait picture courtesy of Wyatt Salmons" />
 				</div>
 			</div>
@@ -124,7 +124,7 @@
 			<div data-aos="slide-left">
 				<div class="row inline-block pb-5" id="verbling">
 					<div class="col-sm-6 py-2">
-						<img src="verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo"/>
+						<img src="images/verbling.png" class="img-fluid mx-auto d-block" alt="Verbling Logo"/>
 					</div>
 					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
 						<h4>ESL Tutor</h4>
@@ -144,7 +144,7 @@
 						<p>Taught English in a French primary school<br>October 2012-April 2013</p>
 					</div>
 					<div class="col-sm-6 py-2">
-						<img src="tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
+						<img src="images/tapif.jpg" class="img-fluid mx-auto d-block" alt="Teaching Assistant Program in France logo"/>
 					</div>
 				</div>
 			</div>
@@ -155,7 +155,7 @@
 				<div class="row inline-block pb-5" id="celta">
 					<div class="col-sm-6 py-2 pb-sm-2 my-auto">
 						<a href="https://drive.google.com/file/d/1ZURbUsdH57HZswZlNr3Q4-qipyl6Wvb_/view?usp=sharing" target="_blank">
-							<img src="celta.png" class="img-fluid mx-auto d-block" alt="CELTA png"/>
+							<img src="images/celta.jpg" class="img-fluid mx-auto d-block" alt="CELTA png"/>
 						</a>
 					</div>
 					<div class="col-sm-6 d-flex justify-content-center flex-column text-center">
