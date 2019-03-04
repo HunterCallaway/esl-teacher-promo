@@ -37,9 +37,9 @@
 		<script src="js/form-validate.js"></script>
 
 		<!-- Custom JavaScript -->
-		<!--
-		<script type="text/javascript" src="script.js"></script>
-		-->
+
+		<script type="text/javascript" src="js/script.js"></script>
+
 
 		<!-- Animate on Scroll Library -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -192,7 +192,7 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
-	<div class="contact form border">
+	<div class="contact form border ml-5 mr-5">
 		<form id="hunters-contact-form" action="php/mailer.php" method="post" novalidate>
 			<div class="form-group">
 				<label for="contactName">Your Name <span class="text-danger">*</span></label>
@@ -248,7 +248,9 @@
 			</div>
 		</div>
 
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<a id="backToTop" title="Back to top" href="#">Top</a>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		AOS.init();
 	</script>
