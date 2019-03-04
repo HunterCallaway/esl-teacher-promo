@@ -93,7 +93,7 @@
 		</div>
 
 
-		<div class="container" id="about-me">
+		<div class="container pt-1" id="about-me">
 			<div data-aos="slide-right">
 				<div class="img-responsive my-5 rounded-circle">
 					<img src="images/portrait.jpg" class="mx-auto d-block"
@@ -115,13 +115,13 @@
 		</div>
 
 	<div id="experience">
-		<div class="container">
+		<div class="container pt-5">
 			<div data-aos="slide-right">
 				<h2>Experience</h2>
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container pb-5">
 			<div data-aos="slide-left">
 				<div class="row inline-block pb-5" id="verbling">
 					<div class="col-sm-6 py-2">
@@ -136,7 +136,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container pb-5">
 			<div data-aos="slide-right">
 				<div class="row flex-column-reverse flex-sm-row inline-block pb-5" id="tapif">
 					<div class="col-sm-6 flex-column align-items-center text-center my-auto">
@@ -151,7 +151,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container pb-5">
 			<div data-aos="slide-left">
 				<div class="row inline-block pb-5" id="celta">
 					<div class="col-sm-6 py-2 pb-sm-2 my-auto">
@@ -169,7 +169,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container pb-5">
 			<div data-aos="slide-right">
 				<div class="row px-5" id="testimonial">
 					<div class>
