@@ -48,6 +48,7 @@
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 		<!-- Social Footer, Colour Matching Icons -->
 		<!-- Fork Awesome Stylesheet -->
@@ -87,7 +88,7 @@
 
 		<div class="container-fluid hero"  id="home">
 			<div class="row">
-				<h1>Learn English<br> with Hunter</h1>
+				<h1>ESL<br>with<br>Hunter</h1>
 			</div>
 		</div>
 
@@ -224,8 +225,8 @@
 			<!-- reCAPTCHA Site Key -->
 			<div class="g-recaptcha" data-sitekey="6LfQEpQUAAAAAJUTjafoHXDAegwy1027x4yJ5ryi"></div>
 
-			<button class="btn btn-success mt-2" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning mt-2" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			<button class="btn btn-success mt-3" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+			<button class="btn btn-warning mt-3" type="reset"><i class="fa fa-ban"></i> Reset</button>
 		</form>
 	</div>
 
