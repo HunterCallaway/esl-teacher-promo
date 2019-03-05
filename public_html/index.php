@@ -54,7 +54,7 @@
 		<!-- Fork Awesome Stylesheet -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css" integrity="sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=" crossorigin="anonymous">
 
-		<Title>Learn English with Hunter</Title>
+		<Title>ESL with Hunter</Title>
 	</head>
 	<body>
 <!--	onscroll="debounce(checkSlide)-->
@@ -192,7 +192,7 @@
 		<h3 class="text-center">Are you interested in tutoring? <br> Get in touch with me!</h3>
 	</div>
 
-	<div class="contact form border ml-5 mr-5">
+	<div class="contact form border">
 		<form id="hunters-contact-form" action="php/mailer.php" method="post" novalidate>
 			<div class="form-group">
 				<label for="contactName">Your Name <span class="text-danger">*</span></label>
@@ -248,7 +248,9 @@
 			</div>
 		</div>
 
-		<a id="backToTop" title="Back to top" href="#">Top</a>
+		<div id="scrollTop">
+			<a id="backToTop" title="Back to top" href="#">Top</a>
+		</div>
 
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>

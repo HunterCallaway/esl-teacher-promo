@@ -2,7 +2,7 @@
 Note: This code was taken from the following source.
  */
 
-/*Scroll to top when arrow up clicked BEGIN*/
+//Scroll to the top when the arrow up clicked
 $(window).scroll(function() {
 	var height = $(window).scrollTop();
 	if (height > 100) {
@@ -19,4 +19,4 @@ $(document).ready(function() {
 	});
 
 });
-/*Scroll to top when arrow up clicked END*/
+
