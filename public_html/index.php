@@ -50,6 +50,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 		<!-- Social Footer, Colour Matching Icons -->
 		<!-- Fork Awesome Stylesheet -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css" integrity="sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=" crossorigin="anonymous">
@@ -250,7 +253,7 @@
 		</div>
 
 		<div class="col">
-			<a id="backToTop" title="Back to top" href="#">Top</a>
+			<a id="backToTop" title="Back to top" href="#"><i class="fas fa-arrow-circle-up fa-sm"></i></a>
 		</div>
 
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -11,10 +11,10 @@ $(window).scroll(() => {
 		$('#backToTop').fadeOut();
 	}
 });
-$(document).ready(()=> {
+$(document).ready(() => {
 	$("#backToTop").click((event) => {
 		event.preventDefault();
-		$("html, body").animate({ scrollTop: 0 }, "slow");
+		$("html, body").animate({scrollTop: 0}, "slow");
 		return false;
 	});
 
