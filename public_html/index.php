@@ -249,7 +249,7 @@
 			</div>
 		</div>
 
-		<div class="col mx-auto">
+		<div class="col">
 			<a id="backToTop" title="Back to top" href="#">Top</a>
 		</div>
 
