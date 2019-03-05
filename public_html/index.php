@@ -180,7 +180,7 @@
 					</div>
 					<div>
 						<p>I had the opportunity to take lessons from Hunter one year ago. His approach was very interactive and
-							conversational. He was well prepared for each session and came up with lessons that were tailored to my needs. I highly recommend Hunter for anyone who is interested in
+							conversational. He was well-prepared for each session and came up with lessons that were tailored to my needs. I highly recommend Hunter for anyone who is interested in
 							taking their English language skills to the next level!<br>-Moniz M.</p>
 					</div>
 				</div>
@@ -247,8 +247,8 @@
 
 		<div class="container-fluid footer">
 			<div class="text-center bg-dark py-2">
-				<a href="https://www.linkedin.com/in/huntercallaway/"><i id="social-li" class="fa fa-linkedin-square fa-2x px-5" aria-hidden="true"></i></a>
-				<a href="https://github.com/HunterCallaway"><i id="social-gh" class="fa fa-github-square fa-2x px-5" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/huntercallaway/" target="_blank"><i id="social-li" class="fa fa-linkedin-square fa-2x px-5" aria-hidden="true"></i></a>
+				<a href="https://github.com/HunterCallaway" target="_blank"><i id="social-gh" class="fa fa-github-square fa-2x px-5" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
