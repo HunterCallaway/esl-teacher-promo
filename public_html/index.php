@@ -223,10 +223,11 @@
 			</div>
 
 			<!-- reCAPTCHA Site Key -->
-			<div class="g-recaptcha" data-sitekey="6LfQEpQUAAAAAJUTjafoHXDAegwy1027x4yJ5ryi"></div>
-
-			<button class="btn btn-success mt-3" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning mt-3" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			<div class="g-recaptcha row justify-content-center flex-sm-row" data-sitekey="6LfQEpQUAAAAAJUTjafoHXDAegwy1027x4yJ5ryi"></div>
+			<div class="col mx-auto text-center">
+				<button class="btn btn-success mt-3" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-warning mt-3" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			</div>
 		</form>
 	</div>
 
@@ -248,7 +249,7 @@
 			</div>
 		</div>
 
-		<div id="scrollTop">
+		<div class="col mx-auto">
 			<a id="backToTop" title="Back to top" href="#">Top</a>
 		</div>
 
