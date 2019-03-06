@@ -46,8 +46,6 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 		<!-- Font Awesome -->
