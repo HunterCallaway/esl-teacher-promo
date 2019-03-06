@@ -254,6 +254,7 @@
 			<a id="backToTop" title="Back to top" href="#"><i class="fas fa-arrow-circle-up fa-sm"></i></a>
 		</div>
 
+		<!-- Nota Bene: Per the following documentation, these script declarations need to be placed at the end of the body. I tried placing them in the head, but the code didn't run properly. (https://github.com/michalsnik/aos) -->
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
 			AOS.init();
