@@ -1,5 +1,5 @@
 /*
-Note: This code was taken from the following source.
+Note: This code was adapted from the following source: https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
  */
 
 //Scroll to the top when the arrow up clicked
