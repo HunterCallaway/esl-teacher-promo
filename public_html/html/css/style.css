@@ -9,7 +9,7 @@ html, body {
 }
 
 .hero {
-	background: url(../images/esl-desk.jpeg);
+	background: url(../../images/esl-desk.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
